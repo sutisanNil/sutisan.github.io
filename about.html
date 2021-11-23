@@ -4,7 +4,28 @@
 <title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/styles.css">
+<link id="theme" rel="stylesheet" href="./css/light.css">
+
+<script>
+  function toggleTheme() {
+      // Obtains an array of all <link>
+      // elements.
+      // Select your element using indexing.
+      var theme = document.getElementsByTagName('link')[0];
+
+      // Change the value of href attribute 
+      // to change the css sheet.
+      if (theme.getAttribute('href') == 'css/light.css') {
+          theme.setAttribute('href', 'css/dark.css');
+      } else {
+          theme.setAttribute('href', 'css/light.css');
+      }
+  }
+  function sweetTheme() {
+        theme.setAttribute('href', 'css/sweet.css');
+    }
+
+</script>
 </head>
 <body>
 
@@ -12,7 +33,8 @@
 <header>
   <h1>Sutisan's Portfolio</h1>
 </header>
-
+<img src="img/idea.png" class="dark-mode" onclick='toggleTheme()'>
+<img src="img/candy.png" class="sweet-mode" onclick='sweetTheme()'>
 <section>
   <nav>
     <ul>
@@ -25,7 +47,7 @@
   <article>
     <h2>ABOUT ME</h2>
     <p>
-        Hi! Nice to see you.
+        Hi!!! We're dinosaurs.
         <br/><img id="dinosaur" src="https://cdn.dribbble.com/users/411211/screenshots/4941100/_scene_50_dribbble.gif"><br>
     </p>
   </article>

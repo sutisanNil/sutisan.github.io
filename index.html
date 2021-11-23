@@ -4,15 +4,35 @@
 <title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/styles.css">
+<link id="theme" rel="stylesheet" href="./css/light.css">
+
+<script>
+  function toggleTheme() {
+      // Obtains an array of all <link>
+      // elements.
+      // Select your element using indexing.
+      var theme = document.getElementsByTagName('link')[0];
+
+      // Change the value of href attribute 
+      // to change the css sheet.
+      if (theme.getAttribute('href') == 'css/light.css') {
+          theme.setAttribute('href', 'css/dark.css');
+      } else {
+          theme.setAttribute('href', 'css/light.css');
+      }
+  }
+  function sweetTheme() {
+        theme.setAttribute('href', 'css/sweet.css');
+    }
+</script>
 </head>
 <body>
-
 
 <header>
   <h1>Sutisan's Portfolio</h1>
 </header>
-
+<img src="img/idea.png" class="dark-mode" onclick='toggleTheme()'>
+<img src="img/candy.png" class="sweet-mode" onclick='sweetTheme()'>
 <section>
   <nav>
     <ul>
@@ -30,6 +50,10 @@
 When your brain goes numb, you can call that mental freeze<br/>
 When these people talk too much, put that shit in slow motion, yeah<br/>
 I feel like an astronaut in the ocean, ayy<br/>
+<br/>What you know about rollin' down in the deep?<br/>
+When your brain goes numb, you can call that mental freeze<br/>
+When these people talk too much, put that shit in slow motion, yeah<br/>
+I feel like an astronaut in the ocean<br/>
     </p>
   </article>
 </section>
