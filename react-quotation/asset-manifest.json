@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quotation-mid/static/css/main.56e6221f.css",
-    "main.js": "/quotation-mid/static/js/main.40626fce.js",
-    "static/js/787.fe5f0542.chunk.js": "/quotation-mid/static/js/787.fe5f0542.chunk.js",
-    "index.html": "/quotation-mid/index.html",
-    "main.56e6221f.css.map": "/quotation-mid/static/css/main.56e6221f.css.map",
-    "main.40626fce.js.map": "/quotation-mid/static/js/main.40626fce.js.map",
-    "787.fe5f0542.chunk.js.map": "/quotation-mid/static/js/787.fe5f0542.chunk.js.map"
+    "main.css": "/react-quotation/static/css/main.56e6221f.css",
+    "main.js": "/react-quotation/static/js/main.c678edba.js",
+    "static/js/787.fe5f0542.chunk.js": "/react-quotation/static/js/787.fe5f0542.chunk.js",
+    "index.html": "/react-quotation/index.html",
+    "main.56e6221f.css.map": "/react-quotation/static/css/main.56e6221f.css.map",
+    "main.c678edba.js.map": "/react-quotation/static/js/main.c678edba.js.map",
+    "787.fe5f0542.chunk.js.map": "/react-quotation/static/js/787.fe5f0542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56e6221f.css",
-    "static/js/main.40626fce.js"
+    "static/js/main.c678edba.js"
   ]
 }
